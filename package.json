@@ -1,0 +1,18 @@
+{
+  "name": "upfront-server",
+  "version": "2.0.0",
+  "description": "Upfront messenger \u2014 real backend: Postgres database (or in-memory for local dev), authentication, contacts, messages, folders, and real-time delivery.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node smoke-test.js"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
